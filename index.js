@@ -19,7 +19,7 @@ app.use(
 	})
 )
 
-// 🔹 Добавь простой тестовый маршрут
+
 app.get('/', (req, res) => {
 	res.send('SmartCinema backend is running!')
 })
